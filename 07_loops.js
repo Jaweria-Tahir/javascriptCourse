@@ -20,3 +20,16 @@ for(let b of 'ali'){
 }
 
 //while
+let n = 9;
+while(n < 17)
+{
+    // console.log(n);
+    
+}
+
+//do while
+let m = 7;
+do{
+    console.log(m);
+    
+}while(m == 4)
