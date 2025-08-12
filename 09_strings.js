@@ -18,5 +18,5 @@ let fruit1 = 'Bana\nna';//n
 console.log(fruit1);
 let fruit2 = 'Bana\tna';//t
 console.log(fruit2);
-let fruit3 = 'Bana\rna';//\r
+let fruit3 = 'Bana\rna';//\r (carraige return )
 console.log(fruit3);
