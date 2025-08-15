@@ -10,39 +10,39 @@ let write = confirm("You want see the prompt?");
 let color = prompt("Enter color you want to give to background:");
 document.body.style.background=color;
 
-// let negativeAge = (age)=>
-// {
-//     return age < 0;//if age smaller than 0 then return true
-// };
-// do
-// {
-// let age = prompt("Enter age:");
-// age = Number.parseInt(age);
-// if(age > 4)
-// {
-//     location.href = "https://www.google.com";
-//     break;
-// }
-// if(negativeAge(age))
-// {
-//     console.error("Negative age is not allowed");   
-//     break;//if negativeAge true then break
-// }
-// if(age < 18 && !(negativeAge(age))) 
-// {
-//     alert("Cannot drive!!!");
+let negativeAge = (age)=>
+{
+    return age < 0;//if age smaller than 0 then return true
+};
+do
+{
+let age = prompt("Enter age:");
+age = Number.parseInt(age);
+if(age > 4)
+{
+    location.href = "https://www.google.com";
+    break;
+}
+if(negativeAge(age))
+{
+    console.error("Negative age is not allowed");   
+    break;//if negativeAge true then break
+}
+if(age < 18 && !(negativeAge(age))) 
+{
+    alert("Cannot drive!!!");
     
-// }
-// else{
-//     alert("Can drive!!!");
+}
+else{
+    alert("Can drive!!!");
     
-// }
+}
 
 
-// if(!(negativeAge(age)))
-// {
-//     write = confirm("You want see the prompt again?");
-// }
-// }while(write);
+if(!(negativeAge(age)))
+{
+    write = confirm("You want see the prompt again?");
+}
+}while(write);
 
 
